@@ -1,7 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ServerConfig {
-  static const String _defaultBaseUrl = 'http://192.168.1.19:3000';
+  static const String _defaultBaseUrl = 'http://192.168.1.105:3000';
   static const String _baseUrlKey = 'base_url';
   static const String _tokenKey = 'jwt_token';
   static const String _userIdKey = 'user_id';
